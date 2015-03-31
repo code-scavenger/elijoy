@@ -1,0 +1,109 @@
+
+.head {
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+.head img {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-wrapper form {
+    margin: 27px 0 20px;
+}
+
+.login-wrapper .box {
+    position: relative;
+    border: #d7d7d7 solid 1px;
+    border-left: none;
+    border-right: none;
+    background: white;
+}
+
+.login-wrapper .input-wrapper {
+    overflow: hidden;
+    margin: 0 16px;
+    border-bottom: #dddddd solid 1px;
+}
+
+.login-wrapper .input-wrapper .icon {
+    float: left;
+    margin: 10px 15px 0 0;
+    background-repeat: no-repeat;
+    background-image: url("../image/login.png");
+    -webkit-background-size: 23px auto;
+    background-size: 23px auto;
+}
+
+.login-wrapper .input-wrapper .icon.forName {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -21px;
+}
+
+.login-wrapper .input-wrapper {
+    overflow: hidden;
+    margin: 0 16px;
+    border-bottom: #dddddd solid 1px;
+}
+
+.login-wrapper .input-wrapper .input-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.login-wrapper .input-wrapper input {
+    padding-right: 35px;
+}
+
+.login-wrapper .input-wrapper:last-of-type {
+    border: none;
+}
+
+.login-wrapper .input-wrapper input {
+    padding-right: 35px;
+}
+
+.login-wrapper .box input {
+    display: block;
+    border: none;
+    padding: 12px 50px 12px 12px;
+    width: 100%;
+    font-size: .9275rem;
+    background: white;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.login-wrapper .input-wrapper .icon.forPwd {
+    width: 19px;
+    height: 21px;
+    background-position: 0 -41px;
+}
+
+.login-wrapper form .btn {
+    margin: 20px 16px 15px;
+}
+
+.btn.btnRed {
+    border-color: #e86b0f;
+    color: white;
+    background: #ff8200;
+}
+
+.btn {
+    display: block;
+    margin: 0 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1.0625rem;
+    line-height: 43px;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
