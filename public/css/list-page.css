@@ -1,0 +1,124 @@
+h1 {
+    display: none;
+}
+
+.head {
+    width: 100%;
+    background-color: #169bd5;
+    color: #fff;
+    line-height: 250%;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.head .back {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    left: 2%;
+}
+
+.content {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.content .list {
+    width: 93%;
+    margin: 0 auto;
+
+}
+
+.content .list .list-cell {
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin: 3% 0;
+    background-color: #fff;
+}
+
+.content .list .list-cell .icon {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 5% 0;
+}
+
+.content .list .list-cell .icon img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+.content .list .list-cell .detail {
+    float: left;
+    width: 75%;
+    margin-left: 2%;
+    padding: 4% 0;
+}
+
+.content .list .list-cell .detail strong {
+    color: #25B3F6;
+    font-weight: bold;
+}
+
+.content .list .list-cell .detail p {
+    color: #767676;
+    font-size: 0.875em;
+}
+
+@media only screen and (max-width: 2048px) {
+    body {
+        font-size: 22px;
+    }
+
+    .content .list .list-cell .icon img {
+        width: 48%;
+    }
+
+    .content .list .list-cell {
+        margin: 1% 0;
+        letter-spacing: 3px;
+    }
+
+    .content .list .list-cell .icon {
+        padding: 3% 0;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 18px;
+    }
+
+    .content .list .list-cell .icon img {
+        width: 95%;
+    }
+
+    .content .list .list-cell {
+        margin: 3% 0;
+        letter-spacing: 0px;
+    }
+
+    .content .list .list-cell .icon {
+        padding: 7% 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    .content .list .list-cell .icon img {
+        width: 95%;
+    }
+
+    .content .list .list-cell {
+        margin: 3% 0;
+        letter-spacing: 0px;
+    }
+
+    .content .list .list-cell .icon {
+        padding: 5% 0;
+    }
+}
